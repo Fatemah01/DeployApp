@@ -39,10 +39,6 @@
 #     def __init__(self):
 #         pass
 
-def preprocessor(text):
-    return text.strip().lower()
-
-
 #     def fit(self, X, y=None):
 #         return self
 
