@@ -29,7 +29,7 @@ import joblib
 from utils import preprocessor
 
 def run():
-    model = joblib.load(open('model.joblib', 'rb'))
+    model = joblib.load(open('model.joblib', 'r'))
 
     st.title("🌍 Language Detector")
     st.text("Basic app to detect the language of a sentence.")
